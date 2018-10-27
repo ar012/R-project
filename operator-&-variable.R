@@ -65,3 +65,44 @@ ls()
 rm(c)
 ls()
 c
+
+
+# Case-sensitivity
+book<-"Arithmetics"
+book
+BOOK
+
+
+# Math Functions:
+# log(x), log10(x), exp(x), sin(x), min(x), max(x), range(x)
+
+log(10)
+log(100)
+log10(100)
+
+sin(5)
+
+variable<-180
+sin(variable)
+max(100)
+
+
+max(10, 15, 6, 0)
+min(15, 0, .5, 60)
+range(10)
+
+
+# Statistical Function
+# mean(x), sd(x), var(x), median(x), quantile(x,p)
+
+x<-c(3, 4, 5, 6, 7)
+x
+quantile(x, .5)
+
+# Recall and correction from previous command
+
+x<-rnorm(5)
+x
+
+y<-rnorm(10)
+y
